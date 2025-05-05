@@ -27,7 +27,7 @@ export default function Home() {
             <h2 className="text-2xl font-semibold mb-4">Inter-face</h2>
             <div className="text-lg mb-8">
               <p>Interactive sculpture</p>
-              <p>2024</p>
+              <p>2025</p>
             </div>
           </div>
 
