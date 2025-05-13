@@ -10,13 +10,16 @@ import { ThemeToggle } from '../ThemeToggle/ThemeToggle';
 export default function NavBar() {
   return (
     <nav className="w-full z-50 bg-background/50 backdrop-blur-sm border-b border-border/40">
-      <div className="max-w-lg mx-auto px-2 h-6 flex items-center justify-end">
+      <div className="max-w-lg mx-auto px-2 py-4 flex items-center justify-end">
         <div className="flex gap-6">
-          <Link href="#about" className="text-sm hover:opacity-80 transition-opacity">
+          <Link href="#about" className="text-base font-medium hover:opacity-80 transition-opacity">
             About
           </Link>
-          <Link href="#artists" className="text-sm hover:opacity-80 transition-opacity">
+          <Link href="#artists" className="text-base font-medium hover:opacity-80 transition-opacity">
             Artists
+          </Link>
+          <Link href="#contact" className="text-base font-medium hover:opacity-80 transition-opacity">
+            Contact
           </Link>
         </div>
       </div>

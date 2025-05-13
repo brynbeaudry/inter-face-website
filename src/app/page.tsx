@@ -13,7 +13,7 @@ export default function Home() {
                 alt="Inter-face Installation Poster"
                 width={800}
                 height={1067}
-                className="h-[90vh] w-auto rounded-lg shadow-xl"
+                className="h-auto max-h-[90vh] w-auto max-w-full object-contain rounded-lg shadow-xl"
                 priority
               />
             </div>
@@ -34,8 +34,8 @@ export default function Home() {
           <div className="space-y-2" id="artists">
             <h2 className="text-xl font-semibold">Artists</h2>
             <p className="text-lg opacity-90">
-              Kazimir Simpson (Art Director)<br />
-              Bryn Beaudry (Systems Architect)
+              <a href="https://www.virgilriviera.com/bio" target="_blank" rel="noopener noreferrer" className="hover:underline">Kazimir Simpson</a> (Art Director)<br />
+              <a href="https://www.beaudry.consulting/" target="_blank" rel="noopener noreferrer" className="hover:underline">Bryn Beaudry</a> (Systems Architect)
             </p>
           </div>
 
@@ -54,6 +54,24 @@ export default function Home() {
 
             <p>
               In a world mediated by screens and devices, Inter-face is an invitation to find a shared human image amidst technological reflection.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="relative max-w-3xl mx-auto px-4 py-24">
+        <div className="space-y-8 bg-background/80 backdrop-blur-sm p-8 rounded-lg">
+          <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+          <div className="space-y-6 text-lg leading-relaxed">
+            <p>
+              We specialize in crafting immersive experiences that transport audiences into new realms. Sparking wonder, igniting creativity, and leaving lasting impressions.
+            </p>
+            <p>
+              If you're looking to elevate your upcoming event, exhibition, or festival with an installation or want to collaborate on a unique project, drop us a line at{' '}
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              <a href="mailto:sales@virgilriviera.com" className="underline hover:opacity-80">
+                sales@virgilriviera.com
+              </a>
             </p>
           </div>
         </div>
